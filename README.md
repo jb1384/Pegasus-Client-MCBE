@@ -7,7 +7,7 @@ Source for Pegasus utility mod and its desktop injector. Download compiled binar
 1. Keep `Pegasus.exe` and `BedrockUtilityFramework.Xray.dll` together in this folder.
 2. Start a fresh Minecraft Bedrock 64-bit session. The injector does not check the game version.
 3. Open `Pegasus.exe`. Select your game session, then choose **Load utility mod**. Use Refresh if you started Minecraft afterward.
-4. In Minecraft, press **Tab** for the menu (clickgui) or use the arrow keys to activate modules.
+4. In a Minecraft world, press **Tab** for the menu (clickgui) or use the arrow keys to activate modules.
 
 Restart Minecraft before loading again or switching DLL versions. 
 
