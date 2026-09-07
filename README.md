@@ -4,12 +4,12 @@ Source for Pegasus utility mod and its desktop injector. Download compiled binar
 
 ## Notes
 
--Phase module doesn't work, and the speed module works but is janky. All other modules work. 
--You can type ',help' in the chat while the client is loaded in your game and it will show you some commands the client provides.
--Combat and movement modules work on most servers. 
--I am trying to add a baritone style autominer to the client but its not ready yet. I also would like to add many more modules in the future.
--If the client breaks, restart minecraft. This shouldn't happen in most circumstances. It can happen if you eject and re-inject the client however. 
--Feel free to use the hooks in this client and the reverse engineering research I've done to help you develop your own clients.
+- Phase module doesn't work, and the speed module works but is janky. All other modules work.
+- You can type ',help' in the chat while the client is loaded in your game and it will show you some commands the client provides.
+- Combat and movement modules work on most servers. 
+- I am trying to add a baritone style autominer to the client but its not ready yet. I also would like to add many more modules in the future.
+- If the client breaks, restart minecraft. This shouldn't happen in most circumstances. It can happen if you eject and re-inject the client however. 
+- Feel free to use the hooks in this client and the reverse engineering research I've done to help you develop your own clients.
 
 ## Start
 
