@@ -9,7 +9,7 @@ Source for Pegasus utility mod and its desktop injector. Download compiled binar
 3. Open `Pegasus.exe`. Select your game session, then choose **Load utility mod**. Use Refresh if you started Minecraft afterward.
 4. In Minecraft, press **Tab** for the menu (clickgui) or use the arrow keys to activate modules.
 
-Restart Minecraft before loading again or switching DLL versions. The injector rejects an already-loaded framework and does not offer unloading. Windows reporting that the DLL loaded does not certify in-game behavior; manual flight validation remains outstanding.
+Restart Minecraft before loading again or switching DLL versions. 
 
 ## Requirements
 
@@ -20,12 +20,10 @@ Restart Minecraft before loading again or switching DLL versions. The injector r
 
 ## Release contents and source provenance
 
-- `BedrockUtilityFramework.Xray.dll`: relinked from the completed `jetpack-fix` gameplay objects with only the splash-text implementation rebuilt to say `made by Roundomegaboi`. The later unfinished Baritone development DLL is not included.
+- `BedrockUtilityFramework.Xray.dll`
 - `Pegasus.exe`: x64 desktop injector with a dark purple GUI. It validates the bundled DLL's SHA-256, does not restrict the Minecraft version, and uses the standard Windows DLL loader.
 - `Source/Injector`: complete C# GUI/injector source and build script.
 - `Source/Mod`: full current C++ module source, tests, CMake configuration, and optional probe sources referenced by that configuration.
-- `JETPACK.md`: original implementation and validation notes.
-- `SECURITY-CHECK.md`: package scan results and scope.
 - `SHA256SUMS.txt`: checksums provided alongside the downloadable release assets.
 
 **Source snapshot distinction:** the available current mod source contains later, unfinished Baritone/navigation changes. It includes the smooth-jetpack implementation, but it is not an exact historical source snapshot of the bundled DLL. No matching pre-navigation source snapshot was found. Rebuilding it produces the current development version. The packaged DLL preserves the completed jetpack gameplay objects and rebuilds only the splash-text hook. The later navigation source was not linked into this DLL.
